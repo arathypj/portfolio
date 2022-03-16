@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Arathy Ponath Jathavan</title>
+</head>
+
+<body>
+    
+    <nav>
+        <h1>Arathy Ponath Jathavan</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <section class="hero" id="about">
+        <img
+          src="images/Cover.jpg"
+          alt="arathy"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            I am an Msc. Computing student at the University of Northampton, United Kingdom. 
+            I am working as a Web & Software Developer at Bauhaus School of Business and Computing. 
+            My dream is to become a Full Stack Developer. I love solving problems and building things. 
+            
+          </p>
+        </div>
+  </section>
+
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      I would be interested to fully utilize and improve my skills and knowledge which 
+      I have learned so far. I would like to be involved in a variety of software 
+      development activities and project management and eventually master it.
+            
+    </p>
+    <p>
+      According to my work style, I start with having daily action plans organized by priority 
+      and staying unwaveringly focused. I love to own my own work and take responsibility. 
+      I'm open and adaptive to collaboration and team activity. 
+    </p>
+    
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="icons/python.jpg"
+          alt="Python"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons/java.jpg"
+          alt="Java"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons/mysql.png"
+          alt="mysql"
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="icons/html.png"
+          alt="html5"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons/css.png"
+          alt="css3"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons/php.png"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="icons/c++.png"
+          alt="c++"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons/MATLAB.png"
+          alt="MATLAB"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons/neo4j.png"
+          alt="neo4j"
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img
+          src="images/map.png"
+          alt="atmfinder"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">ATM Finder</h3>
+        <p class="project-details">
+          An android app for the customers of a bank to find their ATM locations. 
+          It includes the online chatting facility with the customer representatives.
+        </p>
+        <a href="https://github.com/arathypj/atmfinder" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="images/prop_mngmt.png"
+          alt="Property-Management-System"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Property Management System</h3>
+        <p class="project-details">
+          This is property management system which does sale and rent of properties. 
+          The system is done in Java and UI is done using JavaFX
+        </p>
+        <a href="https://github.com/arathypj/Property-Management-System" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="images/user-reg.png"
+          alt="User-Registration"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">User Registration</h3>
+        <p class="project-details">
+          This is a simple project to register the user and to login with password in php.
+        </p>
+        <a href="https://github.com/arathypj/User-Registration" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="socials">
+    
+    <a href="https://www.linkedin.com/in/arathy-p-j-404580134/" target="_blank"
+      ><img
+        src="icons/icons8-linkedin-circled.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://github.com/arathypj" target="_blank"
+      ><img src="icons/icons8-github.gif" alt="Github" class="socicon"
+    /></a>
+  </div>
+  <footer>
+    <p class="footer-card"> <img src="icons/phone.jpg" alt="phone" class="socicon"/>
+      07958370933</p>
+    <p class="footer-card"> <img src="icons/email.png" alt="email" class="socicon"/>
+      arathy333@gmail.com</p>>
+  </footer>
+
+  <i class="scroll-up" id="scroll-up"
+      ><img
+        src="icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script>
+// Nav hamburgerburger selections
+const burger = document.querySelector("#burger-menu");
+const ul = document.querySelector("nav ul");
+const nav = document.querySelector("nav");
+
+// Scroll to top selection
+const scrollUp = document.querySelector("#scroll-up");
+
+// Select nav links
+const navLink = document.querySelectorAll(".nav-link");
+
+// Hamburger menu function
+burger.addEventListener("click", () => {
+  ul.classList.toggle("show");
+});
+
+// Close hamburger menu when a link is clicked
+navLink.forEach((link) =>
+  link.addEventListener("click", () => {
+    ul.classList.remove("show");
+  })
+);
+
+// scroll to top functionality
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+
+  </script>
+  </body>
+
+
+</html>
